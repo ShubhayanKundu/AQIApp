@@ -122,20 +122,76 @@
 			path = WiproProjectUITests;
 			sourceTree = "<group>";
 		};
-		84A527522AEFFF13007CCB5E /* AQISKProject */ = {
+		8456D2FA2AF002D400786EDC /* CustomReUsableView */ = {
 			isa = PBXGroup;
 			children = (
 				84A527532AEFFF13007CCB5E /* CustomListView.swift */,
+			);
+			path = CustomReUsableView;
+			sourceTree = "<group>";
+		};
+		8456D2FB2AF002F600786EDC /* AQIView */ = {
+			isa = PBXGroup;
+			children = (
+				84A5275E2AEFFF13007CCB5E /* ContentView.swift */,
+				84A5275C2AEFFF13007CCB5E /* AirQualityDetailsView.swift */,
 				84A527542AEFFF13007CCB5E /* AirQualityListView.swift */,
+			);
+			path = AQIView;
+			sourceTree = "<group>";
+		};
+		8456D2FC2AF0031500786EDC /* AQIViewModel */ = {
+			isa = PBXGroup;
+			children = (
 				84A527552AEFFF13007CCB5E /* AirQualityViewModel.swift */,
-				84A527562AEFFF13007CCB5E /* APIClient.swift */,
+			);
+			path = AQIViewModel;
+			sourceTree = "<group>";
+		};
+		8456D2FD2AF0032600786EDC /* AQIDataModel */ = {
+			isa = PBXGroup;
+			children = (
 				84A527572AEFFF13007CCB5E /* AirQualityDataModel.swift */,
+			);
+			path = AQIDataModel;
+			sourceTree = "<group>";
+		};
+		8456D2FE2AF0033A00786EDC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
 				84A527582AEFFF13007CCB5E /* Assets.xcassets */,
 				84A527592AEFFF13007CCB5E /* NetworkManager.swift */,
-				84A5275A2AEFFF13007CCB5E /* Preview Content */,
-				84A5275C2AEFFF13007CCB5E /* AirQualityDetailsView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8456D2FF2AF0034700786EDC /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				84A527562AEFFF13007CCB5E /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		8456D3002AF0039A00786EDC /* App */ = {
+			isa = PBXGroup;
+			children = (
 				84A5275D2AEFFF13007CCB5E /* WiproProjectApp.swift */,
-				84A5275E2AEFFF13007CCB5E /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		84A527522AEFFF13007CCB5E /* AQISKProject */ = {
+			isa = PBXGroup;
+			children = (
+				8456D2FA2AF002D400786EDC /* CustomReUsableView */,
+				8456D2FB2AF002F600786EDC /* AQIView */,
+				8456D2FC2AF0031500786EDC /* AQIViewModel */,
+				8456D2FF2AF0034700786EDC /* APIClient */,
+				8456D2FD2AF0032600786EDC /* AQIDataModel */,
+				8456D2FE2AF0033A00786EDC /* Utility */,
+				84A5275A2AEFFF13007CCB5E /* Preview Content */,
+				8456D3002AF0039A00786EDC /* App */,
 			);
 			path = AQISKProject;
 			sourceTree = "<group>";
