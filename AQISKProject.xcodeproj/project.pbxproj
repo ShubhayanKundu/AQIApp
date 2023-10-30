@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843FC9E42AEFD8B200CC6665 /* AQISKProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FC9E32AEFD8B200CC6665 /* AQISKProjectTests.swift */; };
+		843FC9EE2AEFD8B200CC6665 /* AQISKProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FC9ED2AEFD8B200CC6665 /* AQISKProjectUITests.swift */; };
+		843FC9F02AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FC9EF2AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift */; };
+		84A5275F2AEFFF13007CCB5E /* CustomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527532AEFFF13007CCB5E /* CustomListView.swift */; };
+		84A527602AEFFF13007CCB5E /* AirQualityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527542AEFFF13007CCB5E /* AirQualityListView.swift */; };
+		84A527612AEFFF13007CCB5E /* AirQualityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527552AEFFF13007CCB5E /* AirQualityViewModel.swift */; };
+		84A527622AEFFF13007CCB5E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527562AEFFF13007CCB5E /* APIClient.swift */; };
+		84A527632AEFFF13007CCB5E /* AirQualityDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527572AEFFF13007CCB5E /* AirQualityDataModel.swift */; };
+		84A527642AEFFF13007CCB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A527582AEFFF13007CCB5E /* Assets.xcassets */; };
+		84A527652AEFFF13007CCB5E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527592AEFFF13007CCB5E /* NetworkManager.swift */; };
+		84A527662AEFFF13007CCB5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A5275B2AEFFF13007CCB5E /* Preview Assets.xcassets */; };
+		84A527672AEFFF13007CCB5E /* AirQualityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5275C2AEFFF13007CCB5E /* AirQualityDetailsView.swift */; };
+		84A527682AEFFF13007CCB5E /* WiproProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5275D2AEFFF13007CCB5E /* WiproProjectApp.swift */; };
+		84A527692AEFFF13007CCB5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5275E2AEFFF13007CCB5E /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843FC9E02AEFD8B200CC6665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843FC9C72AEFD8AF00CC6665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843FC9CE2AEFD8AF00CC6665;
+			remoteInfo = WiproProject;
+		};
+		843FC9EA2AEFD8B200CC6665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843FC9C72AEFD8AF00CC6665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843FC9CE2AEFD8AF00CC6665;
+			remoteInfo = WiproProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843FC9CF2AEFD8AF00CC6665 /* AQISKProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQISKProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843FC9DF2AEFD8B200CC6665 /* AQISKProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQISKProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843FC9E32AEFD8B200CC6665 /* AQISKProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQISKProjectTests.swift; sourceTree = "<group>"; };
+		843FC9E92AEFD8B200CC6665 /* AQISKProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQISKProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843FC9ED2AEFD8B200CC6665 /* AQISKProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQISKProjectUITests.swift; sourceTree = "<group>"; };
+		843FC9EF2AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQISKProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84A527532AEFFF13007CCB5E /* CustomListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomListView.swift; sourceTree = "<group>"; };
+		84A527542AEFFF13007CCB5E /* AirQualityListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityListView.swift; sourceTree = "<group>"; };
+		84A527552AEFFF13007CCB5E /* AirQualityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityViewModel.swift; sourceTree = "<group>"; };
+		84A527562AEFFF13007CCB5E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		84A527572AEFFF13007CCB5E /* AirQualityDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityDataModel.swift; sourceTree = "<group>"; };
+		84A527582AEFFF13007CCB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A527592AEFFF13007CCB5E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		84A5275B2AEFFF13007CCB5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84A5275C2AEFFF13007CCB5E /* AirQualityDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityDetailsView.swift; sourceTree = "<group>"; };
+		84A5275D2AEFFF13007CCB5E /* WiproProjectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiproProjectApp.swift; sourceTree = "<group>"; };
+		84A5275E2AEFFF13007CCB5E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843FC9CC2AEFD8AF00CC6665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843FC9DC2AEFD8B200CC6665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843FC9E62AEFD8B200CC6665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843FC9C62AEFD8AF00CC6665 = {
+			isa = PBXGroup;
+			children = (
+				84A527522AEFFF13007CCB5E /* AQISKProject */,
+				843FC9E22AEFD8B200CC6665 /* AQISKProjectTests */,
+				843FC9EC2AEFD8B200CC6665 /* WiproProjectUITests */,
+				843FC9D02AEFD8AF00CC6665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843FC9D02AEFD8AF00CC6665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843FC9CF2AEFD8AF00CC6665 /* AQISKProject.app */,
+				843FC9DF2AEFD8B200CC6665 /* AQISKProjectTests.xctest */,
+				843FC9E92AEFD8B200CC6665 /* AQISKProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843FC9E22AEFD8B200CC6665 /* AQISKProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				843FC9E32AEFD8B200CC6665 /* AQISKProjectTests.swift */,
+			);
+			path = AQISKProjectTests;
+			sourceTree = "<group>";
+		};
+		843FC9EC2AEFD8B200CC6665 /* WiproProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843FC9ED2AEFD8B200CC6665 /* AQISKProjectUITests.swift */,
+				843FC9EF2AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift */,
+			);
+			path = WiproProjectUITests;
+			sourceTree = "<group>";
+		};
+		8456D2FA2AF002D400786EDC /* CustomReUsableView */ = {
+			isa = PBXGroup;
+			children = (
+				84A527532AEFFF13007CCB5E /* CustomListView.swift */,
+			);
+			path = CustomReUsableView;
+			sourceTree = "<group>";
+		};
+		8456D2FB2AF002F600786EDC /* AQIView */ = {
+			isa = PBXGroup;
+			children = (
+				84A5275E2AEFFF13007CCB5E /* ContentView.swift */,
+				84A5275C2AEFFF13007CCB5E /* AirQualityDetailsView.swift */,
+				84A527542AEFFF13007CCB5E /* AirQualityListView.swift */,
+			);
+			path = AQIView;
+			sourceTree = "<group>";
+		};
+		8456D2FC2AF0031500786EDC /* AQIViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84A527552AEFFF13007CCB5E /* AirQualityViewModel.swift */,
+			);
+			path = AQIViewModel;
+			sourceTree = "<group>";
+		};
+		8456D2FD2AF0032600786EDC /* AQIDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				84A527572AEFFF13007CCB5E /* AirQualityDataModel.swift */,
+			);
+			path = AQIDataModel;
+			sourceTree = "<group>";
+		};
+		8456D2FE2AF0033A00786EDC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				84A527582AEFFF13007CCB5E /* Assets.xcassets */,
+				84A527592AEFFF13007CCB5E /* NetworkManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8456D2FF2AF0034700786EDC /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				84A527562AEFFF13007CCB5E /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		8456D3002AF0039A00786EDC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				84A5275D2AEFFF13007CCB5E /* WiproProjectApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		84A527522AEFFF13007CCB5E /* AQISKProject */ = {
+			isa = PBXGroup;
+			children = (
+				8456D2FA2AF002D400786EDC /* CustomReUsableView */,
+				8456D2FB2AF002F600786EDC /* AQIView */,
+				8456D2FC2AF0031500786EDC /* AQIViewModel */,
+				8456D2FF2AF0034700786EDC /* APIClient */,
+				8456D2FD2AF0032600786EDC /* AQIDataModel */,
+				8456D2FE2AF0033A00786EDC /* Utility */,
+				84A5275A2AEFFF13007CCB5E /* Preview Content */,
+				8456D3002AF0039A00786EDC /* App */,
+			);
+			path = AQISKProject;
+			sourceTree = "<group>";
+		};
+		84A5275A2AEFFF13007CCB5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84A5275B2AEFFF13007CCB5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843FC9CE2AEFD8AF00CC6665 /* AQISKProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843FC9F32AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProject" */;
+			buildPhases = (
+				843FC9CB2AEFD8AF00CC6665 /* Sources */,
+				843FC9CC2AEFD8AF00CC6665 /* Frameworks */,
+				843FC9CD2AEFD8AF00CC6665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AQISKProject;
+			productName = WiproProject;
+			productReference = 843FC9CF2AEFD8AF00CC6665 /* AQISKProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843FC9DE2AEFD8B200CC6665 /* AQISKProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843FC9F62AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProjectTests" */;
+			buildPhases = (
+				843FC9DB2AEFD8B200CC6665 /* Sources */,
+				843FC9DC2AEFD8B200CC6665 /* Frameworks */,
+				843FC9DD2AEFD8B200CC6665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843FC9E12AEFD8B200CC6665 /* PBXTargetDependency */,
+			);
+			name = AQISKProjectTests;
+			productName = WiproProjectTests;
+			productReference = 843FC9DF2AEFD8B200CC6665 /* AQISKProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843FC9E82AEFD8B200CC6665 /* AQISKProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843FC9F92AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProjectUITests" */;
+			buildPhases = (
+				843FC9E52AEFD8B200CC6665 /* Sources */,
+				843FC9E62AEFD8B200CC6665 /* Frameworks */,
+				843FC9E72AEFD8B200CC6665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843FC9EB2AEFD8B200CC6665 /* PBXTargetDependency */,
+			);
+			name = AQISKProjectUITests;
+			productName = WiproProjectUITests;
+			productReference = 843FC9E92AEFD8B200CC6665 /* AQISKProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843FC9C72AEFD8AF00CC6665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					843FC9CE2AEFD8AF00CC6665 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					843FC9DE2AEFD8B200CC6665 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 843FC9CE2AEFD8AF00CC6665;
+					};
+					843FC9E82AEFD8B200CC6665 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 843FC9CE2AEFD8AF00CC6665;
+					};
+				};
+			};
+			buildConfigurationList = 843FC9CA2AEFD8AF00CC6665 /* Build configuration list for PBXProject "AQISKProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843FC9C62AEFD8AF00CC6665;
+			productRefGroup = 843FC9D02AEFD8AF00CC6665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843FC9CE2AEFD8AF00CC6665 /* AQISKProject */,
+				843FC9DE2AEFD8B200CC6665 /* AQISKProjectTests */,
+				843FC9E82AEFD8B200CC6665 /* AQISKProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843FC9CD2AEFD8AF00CC6665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A527662AEFFF13007CCB5E /* Preview Assets.xcassets in Resources */,
+				84A527642AEFFF13007CCB5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843FC9DD2AEFD8B200CC6665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843FC9E72AEFD8B200CC6665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843FC9CB2AEFD8AF00CC6665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A527602AEFFF13007CCB5E /* AirQualityListView.swift in Sources */,
+				84A527682AEFFF13007CCB5E /* WiproProjectApp.swift in Sources */,
+				84A527632AEFFF13007CCB5E /* AirQualityDataModel.swift in Sources */,
+				84A527622AEFFF13007CCB5E /* APIClient.swift in Sources */,
+				84A527612AEFFF13007CCB5E /* AirQualityViewModel.swift in Sources */,
+				84A527672AEFFF13007CCB5E /* AirQualityDetailsView.swift in Sources */,
+				84A527692AEFFF13007CCB5E /* ContentView.swift in Sources */,
+				84A527652AEFFF13007CCB5E /* NetworkManager.swift in Sources */,
+				84A5275F2AEFFF13007CCB5E /* CustomListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843FC9DB2AEFD8B200CC6665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843FC9E42AEFD8B200CC6665 /* AQISKProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843FC9E52AEFD8B200CC6665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843FC9F02AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift in Sources */,
+				843FC9EE2AEFD8B200CC6665 /* AQISKProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843FC9E12AEFD8B200CC6665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843FC9CE2AEFD8AF00CC6665 /* AQISKProject */;
+			targetProxy = 843FC9E02AEFD8B200CC6665 /* PBXContainerItemProxy */;
+		};
+		843FC9EB2AEFD8B200CC6665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843FC9CE2AEFD8AF00CC6665 /* AQISKProject */;
+			targetProxy = 843FC9EA2AEFD8B200CC6665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		843FC9F12AEFD8B200CC6665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843FC9F22AEFD8B200CC6665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843FC9F42AEFD8B200CC6665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AQISKProject/Preview Content\"";
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckAQIApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843FC9F52AEFD8B200CC6665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AQISKProject/Preview Content\"";
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckAQIApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		843FC9F72AEFD8B200CC6665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQISKProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AQISKProject";
+			};
+			name = Debug;
+		};
+		843FC9F82AEFD8B200CC6665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQISKProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AQISKProject";
+			};
+			name = Release;
+		};
+		843FC9FA2AEFD8B200CC6665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiproProject;
+			};
+			name = Debug;
+		};
+		843FC9FB2AEFD8B200CC6665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiproProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843FC9CA2AEFD8AF00CC6665 /* Build configuration list for PBXProject "AQISKProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843FC9F12AEFD8B200CC6665 /* Debug */,
+				843FC9F22AEFD8B200CC6665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843FC9F32AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843FC9F42AEFD8B200CC6665 /* Debug */,
+				843FC9F52AEFD8B200CC6665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843FC9F62AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843FC9F72AEFD8B200CC6665 /* Debug */,
+				843FC9F82AEFD8B200CC6665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843FC9F92AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843FC9FA2AEFD8B200CC6665 /* Debug */,
+				843FC9FB2AEFD8B200CC6665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843FC9C72AEFD8AF00CC6665 /* Project object */;
+}
