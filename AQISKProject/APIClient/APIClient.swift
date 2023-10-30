@@ -15,7 +15,7 @@ class AirQualityAPIClient {
     ///   - apiKey: The API key for authorization.
     ///   - completion: A closure to pass the result of the request, returning either the air quality data or an error.
     func fetchAirQuality(for city: String, apiKey: String, completion: @escaping (Result<AirQualityData, Error>) -> Void) {
-        guard let url = URL(string: "https://api.api-ninjas.com/v1/airquality?city=\(city)") else {
+        guard let url = URL(string: "\(URLConstants.AQI_URL)\(city)") else {
             completion(.failure(NetworkError.invalidURL))
             return
         }

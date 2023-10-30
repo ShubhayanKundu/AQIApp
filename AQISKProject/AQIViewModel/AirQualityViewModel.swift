@@ -20,6 +20,8 @@ class AirQualityViewModel: ObservableObject {
     @Published var isFetchingData = false
     @Published var selectedCity = ""
     
+    private let shared = BuildSettings.shared
+    
     // MARK: - Methods
     
     /// Navigate to the details view
@@ -35,7 +37,7 @@ class AirQualityViewModel: ObservableObject {
         
         // Simulated delay for asynchronous behavior
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.airQualityAPIClient.fetchAirQuality(for: city, apiKey: "wXADT5a+e5k5tBLjM6pcuQ==3pnJPVY3o0pm9258") { [weak self] result in
+            self.airQualityAPIClient.fetchAirQuality(for: city, apiKey: self.shared.api_key) { [weak self] result in
                 
                 // Back on the main queue to update UI
                 DispatchQueue.main.async {
