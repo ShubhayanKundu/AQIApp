@@ -10,6 +10,7 @@
 		843FC9E42AEFD8B200CC6665 /* AQISKProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FC9E32AEFD8B200CC6665 /* AQISKProjectTests.swift */; };
 		843FC9EE2AEFD8B200CC6665 /* AQISKProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FC9ED2AEFD8B200CC6665 /* AQISKProjectUITests.swift */; };
 		843FC9F02AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FC9EF2AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift */; };
+		8456D3072AF0080A00786EDC /* BuildSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456D3062AF0080A00786EDC /* BuildSettings.swift */; };
 		84A5275F2AEFFF13007CCB5E /* CustomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527532AEFFF13007CCB5E /* CustomListView.swift */; };
 		84A527602AEFFF13007CCB5E /* AirQualityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527542AEFFF13007CCB5E /* AirQualityListView.swift */; };
 		84A527612AEFFF13007CCB5E /* AirQualityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A527552AEFFF13007CCB5E /* AirQualityViewModel.swift */; };
@@ -47,6 +48,8 @@
 		843FC9E92AEFD8B200CC6665 /* AQISKProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQISKProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843FC9ED2AEFD8B200CC6665 /* AQISKProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQISKProjectUITests.swift; sourceTree = "<group>"; };
 		843FC9EF2AEFD8B200CC6665 /* AQISKProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQISKProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8456D3052AF0074B00786EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8456D3062AF0080A00786EDC /* BuildSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSettings.swift; sourceTree = "<group>"; };
 		84A527532AEFFF13007CCB5E /* CustomListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomListView.swift; sourceTree = "<group>"; };
 		84A527542AEFFF13007CCB5E /* AirQualityListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityListView.swift; sourceTree = "<group>"; };
 		84A527552AEFFF13007CCB5E /* AirQualityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirQualityViewModel.swift; sourceTree = "<group>"; };
@@ -161,6 +164,7 @@
 			children = (
 				84A527582AEFFF13007CCB5E /* Assets.xcassets */,
 				84A527592AEFFF13007CCB5E /* NetworkManager.swift */,
+				8456D3062AF0080A00786EDC /* BuildSettings.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -184,6 +188,7 @@
 		84A527522AEFFF13007CCB5E /* AQISKProject */ = {
 			isa = PBXGroup;
 			children = (
+				8456D3052AF0074B00786EDC /* Info.plist */,
 				8456D2FA2AF002D400786EDC /* CustomReUsableView */,
 				8456D2FB2AF002F600786EDC /* AQIView */,
 				8456D2FC2AF0031500786EDC /* AQIViewModel */,
@@ -341,6 +346,7 @@
 				84A527612AEFFF13007CCB5E /* AirQualityViewModel.swift in Sources */,
 				84A527672AEFFF13007CCB5E /* AirQualityDetailsView.swift in Sources */,
 				84A527692AEFFF13007CCB5E /* ContentView.swift in Sources */,
+				8456D3072AF0080A00786EDC /* BuildSettings.swift in Sources */,
 				84A527652AEFFF13007CCB5E /* NetworkManager.swift in Sources */,
 				84A5275F2AEFFF13007CCB5E /* CustomListView.swift in Sources */,
 			);
@@ -379,7 +385,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		843FC9F12AEFD8B200CC6665 /* Debug */ = {
+		843FC9F12AEFD8B200CC6665 /* Stage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,7 +443,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Stage;
 		};
 		843FC9F22AEFD8B200CC6665 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -493,9 +499,10 @@
 			};
 			name = Release;
 		};
-		843FC9F42AEFD8B200CC6665 /* Debug */ = {
+		843FC9F42AEFD8B200CC6665 /* Stage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_Key_SK = "wXADT5a+e5k5tBLjM6pcuQ==3pnJPVY3o0pm9258";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +511,7 @@
 				DEVELOPMENT_TEAM = PFRTSFTQ28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AQISKProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CheckAQIApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -521,11 +529,12 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Stage;
 		};
 		843FC9F52AEFD8B200CC6665 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_Key_SK = "wXADT5a+e5k5tBLjM6pcuQ==3pnJPVY3o0pm9258";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +543,7 @@
 				DEVELOPMENT_TEAM = PFRTSFTQ28;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AQISKProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CheckAQIApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -553,7 +563,7 @@
 			};
 			name = Release;
 		};
-		843FC9F72AEFD8B200CC6665 /* Debug */ = {
+		843FC9F72AEFD8B200CC6665 /* Stage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -571,7 +581,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQISKProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AQISKProject";
 			};
-			name = Debug;
+			name = Stage;
 		};
 		843FC9F82AEFD8B200CC6665 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -593,7 +603,7 @@
 			};
 			name = Release;
 		};
-		843FC9FA2AEFD8B200CC6665 /* Debug */ = {
+		843FC9FA2AEFD8B200CC6665 /* Stage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -609,7 +619,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WiproProject;
 			};
-			name = Debug;
+			name = Stage;
 		};
 		843FC9FB2AEFD8B200CC6665 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -629,13 +639,144 @@
 			};
 			name = Release;
 		};
+		8456D3012AF0068F00786EDC /* SKScheme */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = SKScheme;
+		};
+		8456D3022AF0068F00786EDC /* SKScheme */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_Key_SK = "wXADT5a+e5k5tBLjM6pcuQ==3pnJPVY3o0pm9258";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AQISKProject/Preview Content\"";
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AQISKProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckAQIApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = SKScheme;
+		};
+		8456D3032AF0068F00786EDC /* SKScheme */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQISKProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AQISKProject";
+			};
+			name = SKScheme;
+		};
+		8456D3042AF0068F00786EDC /* SKScheme */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFRTSFTQ28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayo.WiproProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiproProject;
+			};
+			name = SKScheme;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		843FC9CA2AEFD8AF00CC6665 /* Build configuration list for PBXProject "AQISKProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843FC9F12AEFD8B200CC6665 /* Debug */,
+				843FC9F12AEFD8B200CC6665 /* Stage */,
+				8456D3012AF0068F00786EDC /* SKScheme */,
 				843FC9F22AEFD8B200CC6665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -644,7 +785,8 @@
 		843FC9F32AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843FC9F42AEFD8B200CC6665 /* Debug */,
+				843FC9F42AEFD8B200CC6665 /* Stage */,
+				8456D3022AF0068F00786EDC /* SKScheme */,
 				843FC9F52AEFD8B200CC6665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -653,7 +795,8 @@
 		843FC9F62AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843FC9F72AEFD8B200CC6665 /* Debug */,
+				843FC9F72AEFD8B200CC6665 /* Stage */,
+				8456D3032AF0068F00786EDC /* SKScheme */,
 				843FC9F82AEFD8B200CC6665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -662,7 +805,8 @@
 		843FC9F92AEFD8B200CC6665 /* Build configuration list for PBXNativeTarget "AQISKProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843FC9FA2AEFD8B200CC6665 /* Debug */,
+				843FC9FA2AEFD8B200CC6665 /* Stage */,
+				8456D3042AF0068F00786EDC /* SKScheme */,
 				843FC9FB2AEFD8B200CC6665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
